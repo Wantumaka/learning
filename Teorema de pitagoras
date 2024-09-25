@@ -1,0 +1,11 @@
+print('Hello! Leths make a pythagorean theorem of a triangle:')
+
+#vamos a preguntar cuales son las medidas de los lados cortos
+a = int( input ('Whats the length of a short side?'))
+b = int(input('Whats the length of the another short side??'))
+
+#aqui resolvemos el teorema
+c= (a**2 + b**2)**0.5
+
+#exponemos el resultado
+print('The answer is ' ,c)
